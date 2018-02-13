@@ -18,7 +18,7 @@ public class MIsc {
 		Driver.get("http://www.google.com");
 		File src= ((TakesScreenshot)Driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src,new File("C:\\Users\\Arani\\screenshot.png"));
-		System.out.println("Hello World");
+		
 		
 	}
 
